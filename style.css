@@ -1,0 +1,24 @@
+.football {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.score {
+  width: 100%;
+  font-size: 720px;
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  color: rgba(208, 204, 204, 0.49);
+}
+.field {
+  width: 100%;
+  border-radius: 10px;
+}
+.ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
